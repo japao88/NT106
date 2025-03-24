@@ -74,13 +74,15 @@
             // 
             // btnXuat
             // 
+            this.btnXuat.BackColor = System.Drawing.Color.Blue;
             this.btnXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXuat.Location = new System.Drawing.Point(542, 230);
+            this.btnXuat.ForeColor = System.Drawing.Color.White;
+            this.btnXuat.Location = new System.Drawing.Point(471, 211);
             this.btnXuat.Name = "btnXuat";
-            this.btnXuat.Size = new System.Drawing.Size(177, 58);
+            this.btnXuat.Size = new System.Drawing.Size(278, 68);
             this.btnXuat.TabIndex = 3;
             this.btnXuat.Text = "Xuất";
-            this.btnXuat.UseVisualStyleBackColor = true;
+            this.btnXuat.UseVisualStyleBackColor = false;
             this.btnXuat.Click += new System.EventHandler(this.button1_Click);
             // 
             // lbDanhSach
@@ -182,7 +184,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.Text = "Xử lý mảng và Tổng hợp";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

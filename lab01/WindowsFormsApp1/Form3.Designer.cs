@@ -58,29 +58,34 @@
             // 
             // btnDoc
             // 
+            this.btnDoc.BackColor = System.Drawing.Color.Blue;
             this.btnDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDoc.ForeColor = System.Drawing.Color.White;
             this.btnDoc.Location = new System.Drawing.Point(992, 78);
             this.btnDoc.Name = "btnDoc";
             this.btnDoc.Size = new System.Drawing.Size(198, 60);
             this.btnDoc.TabIndex = 2;
             this.btnDoc.Text = "Đọc";
-            this.btnDoc.UseVisualStyleBackColor = true;
+            this.btnDoc.UseVisualStyleBackColor = false;
             this.btnDoc.Click += new System.EventHandler(this.btnDoc_Click);
             // 
             // btnXoa
             // 
+            this.btnXoa.BackColor = System.Drawing.Color.Red;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.ForeColor = System.Drawing.Color.White;
             this.btnXoa.Location = new System.Drawing.Point(992, 230);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(198, 60);
             this.btnXoa.TabIndex = 3;
             this.btnXoa.Text = "Xoá";
-            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.UseVisualStyleBackColor = false;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.ForeColor = System.Drawing.Color.Red;
             this.btnThoat.Location = new System.Drawing.Point(992, 380);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(198, 60);
@@ -120,7 +125,7 @@
             this.Controls.Add(this.tbtInput);
             this.Controls.Add(this.label1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Đọc số";
             this.ResumeLayout(false);
             this.PerformLayout();
 

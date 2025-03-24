@@ -105,13 +105,15 @@
             // 
             // btnThuchien
             // 
+            this.btnThuchien.BackColor = System.Drawing.Color.Blue;
             this.btnThuchien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThuchien.ForeColor = System.Drawing.Color.White;
             this.btnThuchien.Location = new System.Drawing.Point(411, 307);
             this.btnThuchien.Name = "btnThuchien";
             this.btnThuchien.Size = new System.Drawing.Size(452, 52);
             this.btnThuchien.TabIndex = 6;
             this.btnThuchien.Text = "Thực hiện";
-            this.btnThuchien.UseVisualStyleBackColor = true;
+            this.btnThuchien.UseVisualStyleBackColor = false;
             this.btnThuchien.Click += new System.EventHandler(this.btnThuchien_Click);
             // 
             // lbKetqua
@@ -147,7 +149,8 @@
             this.Controls.Add(this.cbTo);
             this.Controls.Add(this.cbFrom);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Hệ cơ số";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

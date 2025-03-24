@@ -26,17 +26,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                int i = 0;
-               while (i < 2)
-                {
-                    if (num[i] > num[i+1])
-                    {
-                        double temp = num[i];
-                        num[i] = num[i+1];
-                        num[i+1] = temp;
-                    }
-                    i++;
-                }
+                Array.Sort(num);
                 tbMax.Text = num[2].ToString();
                 tbMin.Text = num[0].ToString();
             }

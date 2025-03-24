@@ -100,5 +100,10 @@ namespace WindowsFormsApp1
                     return null;
             }
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

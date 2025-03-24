@@ -37,9 +37,9 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            tbSo1.Text = "";
-            tbSo2.Text = "";
-            tbKetqua.Text = "";
+            tbSo1.Clear();
+            tbSo2.Clear();
+            tbKetqua.Clear();
         }
 
         private void button3_Click(object sender, EventArgs e)
