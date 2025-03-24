@@ -149,7 +149,7 @@
             // 
             this.tbMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tbMax.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbMax.Location = new System.Drawing.Point(278, 432);
+            this.tbMax.Location = new System.Drawing.Point(292, 432);
             this.tbMax.Name = "tbMax";
             this.tbMax.Size = new System.Drawing.Size(174, 44);
             this.tbMax.TabIndex = 10;

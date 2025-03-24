@@ -98,9 +98,9 @@
             this.btnTinh.BackColor = System.Drawing.Color.Blue;
             this.btnTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTinh.ForeColor = System.Drawing.Color.White;
-            this.btnTinh.Location = new System.Drawing.Point(376, 297);
+            this.btnTinh.Location = new System.Drawing.Point(292, 297);
             this.btnTinh.Name = "btnTinh";
-            this.btnTinh.Size = new System.Drawing.Size(181, 65);
+            this.btnTinh.Size = new System.Drawing.Size(181, 78);
             this.btnTinh.TabIndex = 6;
             this.btnTinh.Text = "Tính";
             this.btnTinh.UseVisualStyleBackColor = false;
@@ -111,9 +111,9 @@
             this.btnXoa.BackColor = System.Drawing.Color.Red;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(582, 297);
+            this.btnXoa.Location = new System.Drawing.Point(535, 297);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(166, 65);
+            this.btnXoa.Size = new System.Drawing.Size(178, 78);
             this.btnXoa.TabIndex = 7;
             this.btnXoa.Text = "Xoá";
             this.btnXoa.UseVisualStyleBackColor = false;

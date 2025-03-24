@@ -37,6 +37,7 @@
             this.btnThuchien = new System.Windows.Forms.Button();
             this.lbKetqua = new System.Windows.Forms.Label();
             this.tbOutput = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cbFrom
@@ -108,9 +109,9 @@
             this.btnThuchien.BackColor = System.Drawing.Color.Blue;
             this.btnThuchien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThuchien.ForeColor = System.Drawing.Color.White;
-            this.btnThuchien.Location = new System.Drawing.Point(411, 307);
+            this.btnThuchien.Location = new System.Drawing.Point(411, 319);
             this.btnThuchien.Name = "btnThuchien";
-            this.btnThuchien.Size = new System.Drawing.Size(452, 52);
+            this.btnThuchien.Size = new System.Drawing.Size(245, 77);
             this.btnThuchien.TabIndex = 6;
             this.btnThuchien.Text = "Thực hiện";
             this.btnThuchien.UseVisualStyleBackColor = false;
@@ -120,7 +121,7 @@
             // 
             this.lbKetqua.AutoSize = true;
             this.lbKetqua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbKetqua.Location = new System.Drawing.Point(259, 421);
+            this.lbKetqua.Location = new System.Drawing.Point(247, 458);
             this.lbKetqua.Name = "lbKetqua";
             this.lbKetqua.Size = new System.Drawing.Size(136, 37);
             this.lbKetqua.TabIndex = 7;
@@ -129,16 +130,30 @@
             // tbOutput
             // 
             this.tbOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbOutput.Location = new System.Drawing.Point(411, 421);
+            this.tbOutput.Location = new System.Drawing.Point(411, 458);
             this.tbOutput.Name = "tbOutput";
             this.tbOutput.Size = new System.Drawing.Size(452, 40);
             this.tbOutput.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(699, 319);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(164, 77);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Xoá";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1163, 598);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tbOutput);
             this.Controls.Add(this.lbKetqua);
             this.Controls.Add(this.btnThuchien);
@@ -167,5 +182,6 @@
         private System.Windows.Forms.Button btnThuchien;
         private System.Windows.Forms.Label lbKetqua;
         private System.Windows.Forms.TextBox tbOutput;
+        private System.Windows.Forms.Button button1;
     }
 }

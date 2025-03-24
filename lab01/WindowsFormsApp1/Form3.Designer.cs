@@ -41,18 +41,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(106, 90);
+            this.label1.Location = new System.Drawing.Point(95, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(568, 42);
+            this.label1.Size = new System.Drawing.Size(381, 42);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nhập vào số nguyên từ 0 đến 9";
+            this.label1.Text = "Nhập vào số nguyên";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tbtInput
             // 
-            this.tbtInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbtInput.Location = new System.Drawing.Point(714, 78);
+            this.tbtInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbtInput.Location = new System.Drawing.Point(518, 87);
             this.tbtInput.Name = "tbtInput";
-            this.tbtInput.Size = new System.Drawing.Size(165, 62);
+            this.tbtInput.Size = new System.Drawing.Size(507, 56);
             this.tbtInput.TabIndex = 1;
             this.tbtInput.TextChanged += new System.EventHandler(this.tbtInput_TextChanged);
             // 
@@ -61,9 +62,9 @@
             this.btnDoc.BackColor = System.Drawing.Color.Blue;
             this.btnDoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDoc.ForeColor = System.Drawing.Color.White;
-            this.btnDoc.Location = new System.Drawing.Point(992, 78);
+            this.btnDoc.Location = new System.Drawing.Point(173, 258);
             this.btnDoc.Name = "btnDoc";
-            this.btnDoc.Size = new System.Drawing.Size(198, 60);
+            this.btnDoc.Size = new System.Drawing.Size(231, 85);
             this.btnDoc.TabIndex = 2;
             this.btnDoc.Text = "Đọc";
             this.btnDoc.UseVisualStyleBackColor = false;
@@ -74,9 +75,9 @@
             this.btnXoa.BackColor = System.Drawing.Color.Red;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.White;
-            this.btnXoa.Location = new System.Drawing.Point(992, 230);
+            this.btnXoa.Location = new System.Drawing.Point(518, 258);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(198, 60);
+            this.btnXoa.Size = new System.Drawing.Size(243, 85);
             this.btnXoa.TabIndex = 3;
             this.btnXoa.Text = "Xoá";
             this.btnXoa.UseVisualStyleBackColor = false;
@@ -86,9 +87,9 @@
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.Color.Red;
-            this.btnThoat.Location = new System.Drawing.Point(992, 380);
+            this.btnThoat.Location = new System.Drawing.Point(882, 258);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(198, 60);
+            this.btnThoat.Size = new System.Drawing.Size(255, 85);
             this.btnThoat.TabIndex = 4;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -98,7 +99,7 @@
             // 
             this.lblKetqua.AutoSize = true;
             this.lblKetqua.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKetqua.Location = new System.Drawing.Point(507, 240);
+            this.lblKetqua.Location = new System.Drawing.Point(106, 488);
             this.lblKetqua.Name = "lblKetqua";
             this.lblKetqua.Size = new System.Drawing.Size(154, 42);
             this.lblKetqua.TabIndex = 5;
@@ -106,11 +107,12 @@
             // 
             // tbtKetqua
             // 
-            this.tbtKetqua.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbtKetqua.Location = new System.Drawing.Point(714, 228);
+            this.tbtKetqua.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbtKetqua.Location = new System.Drawing.Point(314, 476);
             this.tbtKetqua.Name = "tbtKetqua";
-            this.tbtKetqua.Size = new System.Drawing.Size(165, 62);
+            this.tbtKetqua.Size = new System.Drawing.Size(882, 44);
             this.tbtKetqua.TabIndex = 6;
+            this.tbtKetqua.TextChanged += new System.EventHandler(this.tbtKetqua_TextChanged);
             // 
             // Form3
             // 
